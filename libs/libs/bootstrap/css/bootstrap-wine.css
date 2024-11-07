@@ -1,0 +1,110 @@
+
+.text-wine {
+  color: #870045;
+}
+a.text-wine:hover {
+  color: #5f0031;
+}
+.bg-wine {
+  color: #fff;
+  background-color: #870045;
+}
+a.bg-wine:hover {
+  background-color: #5f0031;
+}
+.btn-wine {
+  color: #fff;
+  background-color: #870045;
+  border-color: #79003b;
+}
+.btn-wine:hover,
+.btn-wine:focus,
+.btn-wine.focus,
+.btn-wine:active,
+.btn-wine.active,
+.open > .dropdown-toggle.btn-wine {
+  color: #fff;
+  background-color: #5f0031;
+  border-color: #38001d;
+}
+.btn-wine:active,
+.btn-wine.active,
+.open > .dropdown-toggle.btn-wine {
+  background-image: none;
+}
+.btn-wine.disabled,
+.btn-wine[disabled],
+fieldset[disabled] .btn-wine,
+.btn-wine.disabled:hover,
+.btn-wine[disabled]:hover,
+fieldset[disabled] .btn-wine:hover,
+.btn-wine.disabled:focus,
+.btn-wine[disabled]:focus,
+fieldset[disabled] .btn-wine:focus,
+.btn-wine.disabled.focus,
+.btn-wine[disabled].focus,
+fieldset[disabled] .btn-wine.focus,
+.btn-wine.disabled:active,
+.btn-wine[disabled]:active,
+fieldset[disabled] .btn-wine:active,
+.btn-wine.disabled.active,
+.btn-wine[disabled].active,
+fieldset[disabled] .btn-wine.active {
+  background-color: #870045;
+  border-color: #79003b;
+}
+.btn-wine .badge {
+  color: #870045;
+  background-color: #fff;
+}
+
+.label-wine {
+  background-color: #870045;
+}
+.label-wine[href]:hover,
+.label-wine[href]:focus {
+  background-color: #5f0031;
+}
+
+.panel-wine {
+  border-color: #870045;
+}
+.panel-wine > .panel-heading {
+  color: #fff;
+  background-color: #870045;
+  border-color: #870045;
+}
+.panel-wine > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #870045;
+}
+.panel-wine > .panel-heading .badge {
+  color: #870045;
+  background-color: #fff;
+}
+.panel-wine > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #870045;
+}
+
+.table > thead > tr > td.wine,
+.table > tbody > tr > td.wine,
+.table > tfoot > tr > td.wine,
+.table > thead > tr > th.wine,
+.table > tbody > tr > th.wine,
+.table > tfoot > tr > th.wine,
+.table > thead > tr.wine > td,
+.table > tbody > tr.wine > td,
+.table > tfoot > tr.wine > td,
+.table > thead > tr.wine > th,
+.table > tbody > tr.wine > th,
+.table > tfoot > tr.wine > th {
+  background-color: #ffe9f4;
+}
+.table-hover > tbody > tr > td.wine:hover,
+.table-hover > tbody > tr > th.wine:hover,
+.table-hover > tbody > tr.wine:hover > td,
+.table-hover > tbody > tr:hover > .wine,
+.table-hover > tbody > tr.wine:hover > th {
+  background-color: #870045;
+  color: #FFF;
+  cursor: pointer;
+}

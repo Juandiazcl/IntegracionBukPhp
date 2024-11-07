@@ -1,0 +1,111 @@
+#body {
+  /* Location of the image */
+  background-image: url(../images/background5.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+/*textarea, input[type]{
+  text-transform: uppercase;
+}*/
+
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*Bloqueo de columnas*/
+.divblock { 
+    overflow-x:scroll;  
+    margin-left: 200px; 
+    overflow-y:visible;
+    padding-bottom:1px;
+}
+
+.tableblock { 
+    table-layout: fixed;
+}
+
+.headcol {
+    position:absolute; 
+    top: auto;
+    border-right: 0px none black;
+}
+
+@media (min-width: 992px) {
+  .dropdownMenu:hover .dropdownMenu-menu {
+      display: block;
+      margin-top: 0;
+  }
+}
+
+.mode-advanced{
+  display: none;
+}
+
+.rowText{
+  text-transform: none;
+}
+
+/*.uppercase{
+  text-transform: uppercase;
+}*/
+
+.modal-open {
+    overflow-y: scroll;
+}
+
+.calendarDayTitle{
+    text-align: center;
+}
+
+.calendarNormal{
+    text-align: center;
+}
+.calendarNormal:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.calendarSaturday{
+    text-align: center;
+    color: blue;
+}
+.calendarSaturday:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.calendarSunday{
+    text-align: center;
+    color: red;
+}
+.calendarSunday:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.textExcel{
+    mso-number-format:"\@";
+}

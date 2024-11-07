@@ -1,0 +1,110 @@
+
+.text-redto {
+  color: #CC0000;
+}
+a.text-redto:hover {
+  color: #9A0000;
+}
+.bg-redto {
+  color: #fff;
+  background-color: #CC0000;
+}
+a.bg-redto:hover {
+  background-color: #9A0000;
+}
+.btn-redto {
+  color: #fff;
+  background-color: #CC0000;
+  border-color: #B40000;
+}
+.btn-redto:hover,
+.btn-redto:focus,
+.btn-redto.focus,
+.btn-redto:active,
+.btn-redto.active,
+.open > .dropdown-toggle.btn-redto {
+  color: #fff;
+  background-color: #9A0000;
+  border-color: #350000;
+}
+.btn-redto:active,
+.btn-redto.active,
+.open > .dropdown-toggle.btn-redto {
+  background-image: none;
+}
+.btn-redto.disabled,
+.btn-redto[disabled],
+fieldset[disabled] .btn-redto,
+.btn-redto.disabled:hover,
+.btn-redto[disabled]:hover,
+fieldset[disabled] .btn-redto:hover,
+.btn-redto.disabled:focus,
+.btn-redto[disabled]:focus,
+fieldset[disabled] .btn-redto:focus,
+.btn-redto.disabled.focus,
+.btn-redto[disabled].focus,
+fieldset[disabled] .btn-redto.focus,
+.btn-redto.disabled:active,
+.btn-redto[disabled]:active,
+fieldset[disabled] .btn-redto:active,
+.btn-redto.disabled.active,
+.btn-redto[disabled].active,
+fieldset[disabled] .btn-redto.active {
+  background-color: #CC0000;
+  border-color: #B40000;
+}
+.btn-redto .badge {
+  color: #CC0000;
+  background-color: #fff;
+}
+
+.label-redto {
+  background-color: #CC0000;
+}
+.label-redto[href]:hover,
+.label-redto[href]:focus {
+  background-color: #9A0000;
+}
+
+.panel-redto {
+  border-color: #CC0000;
+}
+.panel-redto > .panel-heading {
+  color: #fff;
+  background-color: #CC0000;
+  border-color: #CC0000;
+}
+.panel-redto > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #CC0000;
+}
+.panel-redto > .panel-heading .badge {
+  color: #CC0000;
+  background-color: #fff;
+}
+.panel-redto > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #CC0000;
+}
+
+.table > thead > tr > td.redto,
+.table > tbody > tr > td.redto,
+.table > tfoot > tr > td.redto,
+.table > thead > tr > th.redto,
+.table > tbody > tr > th.redto,
+.table > tfoot > tr > th.redto,
+.table > thead > tr.redto > td,
+.table > tbody > tr.redto > td,
+.table > tfoot > tr.redto > td,
+.table > thead > tr.redto > th,
+.table > tbody > tr.redto > th,
+.table > tfoot > tr.redto > th {
+  background-color: #ffe9f4;
+}
+.table-hover > tbody > tr > td.redto:hover,
+.table-hover > tbody > tr > th.redto:hover,
+.table-hover > tbody > tr.redto:hover > td,
+.table-hover > tbody > tr:hover > .redto,
+.table-hover > tbody > tr.redto:hover > th {
+  background-color: #CC0000;
+  color: #FFF;
+  cursor: pointer;
+}
